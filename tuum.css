@@ -1,0 +1,122 @@
+body {
+	background-image: url("pildid/logo.png");
+	background-color: #F2F2F2;
+	background-repeat: no-repeat;
+	background-position: center -20%;
+	font-size: 32px;
+}
+
+#navigatsioon {
+	position: fixed;
+	top: 45%;
+	margin-top: -75px;
+	left: 0;
+	width: 100%;
+}
+
+#otsingulahter .tekst {
+	position: fixed;
+	left: 30%;
+	border:1px solid #CECDE2;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+
+}
+
+#otsingulahter .nupp {
+	position: fixed;
+	left: 70%;
+	border:1px solid #CECDE2; 
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+	color: #4B4B32;
+}
+
+#otsingulahter .nupp:active {
+	color: #4B4B32;
+	background-color: #EAEAEA;
+}
+
+.nav2 {
+	position: relative;
+	width: 50%;
+	top: 75px;
+	margin-left:auto;
+	margin-right:auto;
+	z-index: 1;
+}
+
+nav {
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 2;
+}
+
+.nav2 > .ul2 > li {
+	border: none;
+	background: none;
+}
+
+.ul2 > li {
+	font-size: 50%;
+}
+
+a {
+	text-decoration: none;
+	color: #CECDE2;
+}
+
+a:hover{
+	color: #7D7D64;
+}
+
+li > ul {
+   visibility: hidden;
+   opacity: 0;
+   max-height: 0;
+   padding: 0 5px;
+}
+
+li:hover > ul {
+   visibility: visible;
+   opacity: 1;
+   max-height: 200px;
+   max-width: auto;
+}
+
+nav > ul > li {
+	background: #FFFFFF;
+	padding: 1px 20px;
+	border: 1px solid #CECDE2;
+	display: inline-table;
+	border-radius: 5px;
+}
+
+nav ul ul li {
+	display: block;
+	padding: 5px 0px;
+}
+
+p {
+	position: fixed;
+	font-size: 150px;
+	color: #551a8b;
+	top: -30px;
+	width: 100%;
+	left: 50px;
+	text-align: center;
+	cursor: default;
+}
+
+hr {
+	position: fixed;
+	margin-bottom: -10px;
+	width: 50%;
+	top: 45%;
+	left: 26%;
+	color: #CECDE2;
+	border-top: 1px solid #cecde2;
+}
